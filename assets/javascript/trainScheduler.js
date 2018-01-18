@@ -18,11 +18,11 @@ var trainData = firebase.database();
 $("#add-train-btn").on("click", function() {
 
   // Obtain the Input value from the input form on the DOM
-  // first train time (pushed back 10 years to make sure it comes before current time)
+  // first train time (pushed back 1 year to make sure it comes before current time)
 
   var trainName = $("#train-name").val().trim();
   var destination = $("#train-destination").val().trim();
-  var firstTrainUnix = moment($("#first-train").val().trim(), "HH:mm").subtract(10, "years").format("X");
+  var firstTrainUnix = moment($("#first-train").val().trim(), "HH:mm").subtract(1, "years").format("X");
   var frequency = $("#train-frequency").val().trim();
 
   // Create a local "temporary" object for holding the train data
