@@ -1,0 +1,73 @@
+body {
+  font-family: 'Anton', sans-serif;
+  background: url(../images/background_body.jpg) no-repeat center center / cover fixed;
+  background-size: 100%;  
+  font-size: 14px;
+}
+
+.jumbotron {
+  background: url(../images/background_jumbo.jpg) no-repeat center;
+  color: white;
+  border: 10px solid #ffa500;
+  box-shadow: 2px 2px 3px #bbb;
+  font-family: 'Shrikhand', cursive;
+  font-size: 20px;
+}
+
+h1 {
+  color: white;
+}
+
+.panel-default > .panel-heading-custom {
+  background: #ffa500;
+  color: white;
+  box-shadow: 2px 2px 3px #bbb;
+  font-family: 'Shrikhand', cursive; 
+}
+
+th {
+  color: red;
+}
+
+form {
+  float: left;
+  width: 100%;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: red;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: blue;
+  border-radius: 8px;
+}
+
+button:focus {outline:0;}
+
+button,
+input[type="submit"] {
+  padding: 5px 20px;
+  margin: 0 10px 10px 0;
+  font-size: 18px;
+  color: #f0f8ff;
+  cursor: pointer;
+  background: #ffa500;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #bbb;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #ff4444;
+}
+
